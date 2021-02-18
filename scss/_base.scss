@@ -1,0 +1,31 @@
+// Text
+$color-very-dark: hsl(238, 29%, 16%);
+$color-soft-red: hsl(14, 88%, 65%);
+$color-very-dark-grayish: hsl(237, 12%, 33%);
+$color-dark-grayish: hsl(240, 6%, 50%);
+
+// Dividers
+$color-light-grayish: hsl(240, 5%, 91%);
+
+
+// Gradient
+$color-soft-violet: hsl(273, 75%, 66%);
+$color-soft-blue: hsl(240, 73%, 65%);
+
+// Font sizes
+$font-size-lg: 20px;
+$font-size-sm: 12px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: $font-size-sm;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url("../images/bg-pattern-mobile.svg");
+    height: 100vh;
+    background: linear-gradient($color-soft-violet, $color-soft-blue);
+}

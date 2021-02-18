@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 12px;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url("../images/bg-pattern-mobile.svg");
+  height: 100vh;
+  background: linear-gradient(#af67e9, #6565e7); }
